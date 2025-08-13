@@ -777,7 +777,7 @@
         }
 
         // Google Sheets configuration
-        const GOOGLE_SHEETS_URL = 'https://script.google.com/macros/s/AKfycbyhIVkAoUvt3rKxPz33QA2bnCutkzJDx7tounFOD6j0nMb9EFeXQVpV6HngmYt5lza2RQ/exec'; // ستحتاج لاستبدال هذا
+        const GOOGLE_SHEETS_URL = 'https://script.google.com/macros/s/AKfycbylvxNfv2db1fC0PAUrrYokfTpAJmvwQxCdjug7FUrZOVFskm7omAv90b7bU7lCieIuUA/exec'; // ستحتاج لاستبدال هذا
 
         // Student registration form handler
         document.getElementById('studentRegistrationForm').addEventListener('submit', function(e) {
@@ -912,7 +912,7 @@
         // Send data to Google Sheets
         function sendToGoogleSheets(studentData) {
             // إذا لم يتم تعيين رابط Google Sheets، لا ترسل البيانات
-            if (GOOGLE_SHEETS_URL === 'YOUR_GOOGLE_SHEETS_WEB_APP_URL_HERE') {
+            if (GOOGLE_SHEETS_URL === 'https://script.google.com/macros/s/AKfycbylvxNfv2db1fC0PAUrrYokfTpAJmvwQxCdjug7FUrZOVFskm7omAv90b7bU7lCieIuUA/exec') {
                 console.log('⚠️ لم يتم تكوين Google Sheets بعد');
                 return;
             }
@@ -1414,4 +1414,5 @@
     </script>
 <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'96e55bd3b77632aa',t:'MTc1NTA1ODE4NC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
+
 
